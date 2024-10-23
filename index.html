@@ -7,292 +7,256 @@
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
 <body>
-    <header class="header header--is-hidden">
+    <header class="header">
         <div class="header__container">
-            <h1>
-                <img class="header__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+            <h1 class="text--big">
+                Eduardo Souza
             </h1>
-            <ul class="header__links ">
+            <ul class="header__links">
                 <li class="header__links__item">
-                    <a class="button button--secondary" href="#">Assine agora</a>
+                    <a class="button button--secondary" href="#projects">Projetos</a>
                 </li>
                 <li class="header__links__item">
-                    <a class="button button--dark" href="#">Entrar</a>
+                    <a class="button button--dark"  href="#contact">Contato</a>
                 </li>
             </ul>
         </div>
     </header>
     <section class="hero">
         <div class="hero__content">
-            <div class="hero__content__branding">
-                <img src="./dist/images/disneyplus.svg" alt="Disney+">
+            <div id="particles-js">
+                <img src="./img/img_fundo.mp4" alt="">
             </div>
-            <h3 class="title--smal">
-                As melhores histórias em um só lugar
-            </h3>
-            <p>
-                <a href="#" class="link-text">Assistir o Disney+</a>
-                <br>
-                <span class="text">
-                    R$ 27,90/mês ou R$ 279,90/ano à vista*
-                </span>
-            </p>
-            <ul class="hero__content__combos">
-                <li class="hero__content__combos__combo">
-                    <img src="./dist/images/logos/disney_star_plus.png" alt="Disney+ - Star+ - Combo+">
-                    <button class="button">Assine agora</button>
-                    <span class="text--small">R$ 45,90/mês*</span>
-                </li>
-                <li class="hero__content__combos__combo">
-                    <img src="./dist/images/logos/disney_star_plus.png" alt="Disney+ - Star+ - Combo+">
-                    <button class="button">Assine agora</button>
-                    <span class="text--small">R$ 45,90/mês*</span>
-                </li>
-            </ul>
-            <p class="text">
-                O preço pode variar caso a assinatura seja feita através de outras plataformas
-            </p>
+            <h1 class="text--principal">
+                Desenvolvedor Web Front-end
+            </h1>
+            <h2 class="title--smal">Olá, sou Eduardo Souza, desenvolvedor Front-End</h2>
+            <p class="text">Transformo ideias em experiências digitais incríveis</p>
+            <a href="#projects" class="button">Veja meus projetos</a>
         </div>
     </section>
-    <section class="shows">
+    <section class="shows" id="projects">
         <nav class="shows__tab">
             <button data-tab-button="em_breve" class="shows__tab__button shows__tab__button--is--active">
-                Em breve
-            </button>
-            <button data-tab-button="populares" class="shows__tab__button">
-                Mais populares
-            </button>
-            <button data-tab-button="star_plus" class="shows__tab__button">
-                Mais no star+
+                Meus Projetos
             </button>
         </nav>
         <ul data-tab-id="em_breve" class="shows__list shows__list--is--active">
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="spidey">
+            <li class="shows__list__item" >
+                <a target="_blank" href="https://disney-copia-flax.vercel.app/">
+                    <img src="./img/Disney.png" alt="Disney+">
+                    <p class="text--sites">Disney+</p>
+                </a>
             </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/willow.jpg" alt="willow">
+            <li class="shows__list__item" >
+                <a target="_blank" href="https://sorteador-d25j.vercel.app/">
+                    <img src="./img/Sorteador.png" alt="Sorteador">
+                    <p class="text--sites">Sorteador</p>
+                </a>
             </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/desencantada.jpg" alt="desencantada">
+            <li class="shows__list__item" >
+                <a target="_blank" href="https://less-sandy.vercel.app/">
+                    <img src="./img/Perfil.png" alt="Perfil">
+                    <p class="text--sites">Perfil</p>
+                </a>
             </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/lobisomem.jpg" alt="lobisomem">
+            <li class="shows__list__item" >
+                <a target="_blank" href="https://barber-shop-front-end.vercel.app/">
+                    <img src="./img/Barbe_shop.png" alt="Barber shop">
+                    <p class="text--sites">Barber shop</p>
+                </a>
             </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/sem_limites.jpg" alt="sem_limites">
+            <li class="shows__list__item" >
+                <a target="_blank" href="https://bootstrap-site-rouge.vercel.app/">
+                    <img src="./img/Site_visita.png" alt="Site visita">
+                    <p class="text--sites">Site de visita</p>
+                </a>
             </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="the_santa_clauses">
+            <li class="shows__list__item" >
+                <a target="_blank" href="https://carros-loja.vercel.app/">
+                    <img src="./img/Site_carro.png" alt="Site de carro">
+                    <p class="text--sites">Site de carro</p>
+                </a>
             </li>
-        </ul>
-        <ul data-tab-id="populares" class="shows__list ">
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/obi_wan.jpg" alt="obi_wan">
+            <li class="shows__list__item" >
+                <a target="_blank" href="https://bootstrap-pi-ruby.vercel.app/">
+                    <img src="./img/Site_anime.png" alt="Site de anime">
+                    <p class="text--sites">Site de anime</p>
+                </a>
             </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/bluey.jpg" alt="bluey">
+            <li class="shows__list__item" >
+                <a target="_blank" href="https://bootstrap-z1q7.vercel.app/">
+                    <img src="./img/Formulario.png" alt="Formulario">
+                    <p class="text--sites">Formulario</p>
+                </a>
             </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/cavaleira_da_lua.jpg" alt="cavaleira_da_lua">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/o_incrivel_dr_pol.jpg" alt="o_incrivel_dr_pol">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/red.jpg" alt="red">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/tudo_igual_sqn.jpg" alt="tudo_igual_sqn">
-            </li>
-        </ul>
-        <ul data-tab-id="star_plus" class="shows__list ">
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/libertadores.jpg" alt="libertadores">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/belair.jpg" alt="belair">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/nba.jpg" alt="nba">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/os_simpson.jpg" alt="os_simpson">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/premier_league.jpg" alt="premier_league">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/the_kardashians.jpg" alt="the_kardashians">
+            <li class="shows__list__item" >
+                <a target="_blank" href="https://site-restaurante-eight.vercel.app/">
+                    <img src="./img/Restaurante.png" alt="Restaurante">
+                    <p class="text--sites">Restaurante</p>
+                </a>
             </li>
         </ul>
     </section>
-    <section class="plans">
-        <h2 class="title--big">Escolha seu plano</h2>
-        <ul class="plans__list">
-            <li class="plans__list__item">
-                <img src="./dist/images/logos/disneyplus_underline.png" alt="Disney+">
-                <strong class="title--smal">R$ 27,90/mês</strong>
-                <p class="text--big">
-                    No Disney+ você encontra as últimas estreias do cinema, originais e clássicos inesquecíveis.
-                </p>
-                <button class="button">Assine agora</button>
-            </li>
-            <li class="plans__list__item">
-                <img src="./dist/images/logos/disney_star_plus_sm.png" alt="Disney+">
-                <strong class="title--smal">R$ 27,90/mês</strong>
-                <p class="text--big">
-                    No Disney+ você encontra as últimas estreias do cinema, originais e clássicos inesquecíveis.
-                </p>
-                <button class="button">Assine agora</button>
-            </li>
-            <li class="plans__list__item">
-                <img src="./dist/images/logos/disney_star_plus_starzplay_underline.png" alt="Disney+">
-                <strong class="title--smal">R$ 27,90/mês</strong>
-                <p class="text--big">
-                    No Disney+ você encontra as últimas estreias do cinema, originais e clássicos inesquecíveis.
-                </p>
-                <button class="button">Assine agora</button>
-            </li>
-        </ul>
+    <section class="about">
+        <h2 class="title">Sobre mim</h2>
         <p class="text">
-            O preço pode variar caso a assinatura seja feita através de outras plataformas.
+            Meu nome é Eduardo de Souza, tenho 23 anos e sou movido por sonhos e metas que quero realizar. A programação me fascina, não apenas pelo seu impacto tecnológico, 
+            mas pelo seu processo de evolução constante, que me desafia a evoluir como pessoa. Gosto de entender a montagem de um site e como cada elemento tem um propósito específico. <br>  
+
+            Sou apaixonado por livros e pelo treino físico, embora tenha pausado a academia para focar ainda mais nos estudos. Considero-me uma pessoa calma e paciente, 
+            sempre buscando lidar com as situações de forma equilibrada, através de diálogo e compreensão. Também sou um grande amante de café e valorizo a autenticidade — acredito em ser quem realmente sou, sem máscaras. <br>
+
+            Nos meus momentos livres, escrevo filosofia e poemas, vendo em tudo ao meu redor uma "estrutura". Embora a simplicidade seja, muitas vezes, a melhor abordagem, acredito que é essencial pensar além do comum e explorar novas perspectivas. <br>
+
         </p>
-    </section>
-    <section class="image-text-section image-text-section--image-full-width">
-        <picture>
-            <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png" sizes="100vw" />
-            <img src="./dist/images/fundo_rei_leao.png" alt="imagem com tv, computador, tablet e celular">
-        </picture>
-        <div class="image-text-section image-text-section--image-full-width__text_container">
-            <h2 class="title">Baixe filmes e séries</h2>
-            <p class="text--big">
-                Baixe e assista quando e onde quiser.Assim, seus favoritos estão sempre com você, até mesmo sem internet.
-            </p>
-        </div>
-    </section>
-    <section class="available-devices">
-        <h2 class="title">Disponível nos dispositivos favoritos</h2>
-        <ul class="available-devices__list">
-            <li class="available-devices__list__item">
-                <img src="./dist/images/dispositivos/computador.png" alt="Computador">
-                <h4 class="title--smal">Computador</h4>
-                <ul class="text--small">
-                    <li>Chrome OS</li>
-                    <li>MacOS</li>
-                    <li>PC Windows</li>
-                </ul>
-            </li>
-            <li class="available-devices__list__item">
-                <img src="./dist/images/dispositivos/tv.png" alt="Computador">
-                <h4 class="title--smal">TV</h4>
-                <ul class="text--small">
-                    <li>Amazon Fire TV</li>
-                    <li>Android TV</li>
-                    <li>Apple TV</li>
-                    <li>Chromocast</li>
-                    <li>TVs LG</li>
-                    <li>Roku</li>
-                    <li>Samsung</li>
-                </ul>
-            </li>
-            <li class="available-devices__list__item">
-                <img src="./dist/images/dispositivos/videogames.png" alt="Computador">
-                <h4 class="title--smal">Videogames</h4>
-                <ul class="text--small">
-                    <li>PS4</li>
-                    <li>PS5</li>
-                    <li>Xbox One</li>
-                    <li>Xbox Serie X</li>
-                    <li>Xbox serie S</li>
-                </ul>
-            </li>
-            <li class="available-devices__list__item">
-                <img src="./dist/images/dispositivos/celular.png" alt="Computador">
-                <h4 class="title--smal">Celulares e tablets</h4>
-                <ul class="text--small">
-                    <li>Tablets Amazon Fire</li>
-                    <li>Celulares e Tablets Android</li>
-                    <li>iPhone e iPad</li>
-                </ul>
-            </li>
-        </ul>
     </section>
     <section class="faq">
         <h2 class="title">Perguntas frequentes</h2>
         <ul class="faq__questions">
             <li class="faq__questions__item">
                 <div class="faq__questions__item__question" data-faq-question="">
-                    Pergunta?
+                    Quais serviços você oferece?
                 </div>
                 <div class="faq__questions__item__answer text--big">
-                    A resposta da pergunta
-                </div>
-            </li>
-            <li class="faq__questions__item ">
-                <div class="faq__questions__item__question" data-faq-question="">
-                    Pergunta?
-                </div>
-                <div class="faq__questions__item__answer text--big">
-                    A resposta da pergunta
+                    Ofereço serviços completos de desenvolvimento front-end, criação de sites responsivos e design intuitivo, além de otimização de desempenho para garantir a melhor experiência do usuário. Personalizo cada projeto conforme as suas necessidades.
                 </div>
             </li>
             <li class="faq__questions__item">
                 <div class="faq__questions__item__question" data-faq-question="">
-                    Pergunta?
+                    Como é o processo de criação de um site?
                 </div>
                 <div class="faq__questions__item__answer text--big">
-                    A resposta da pergunta
+                    Após entender suas necessidades, realizo o planejamento do layout e funcionalidades. Depois, desenvolvo o site, sempre mantendo uma comunicação constante para garantir que o projeto esteja alinhado com as suas expectativas. O prazo e os detalhes de cada etapa são definidos juntos.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question="">
+                    Qual o tempo médio para concluir um projeto?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Depende do escopo do projeto. Para sites simples, pode levar cerca de 1 a 2 semanas. Projetos mais complexos podem exigir de 3 a 6 semanas, mas sempre informo um prazo estimado antes de começar.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question="">
+                    Você oferece suporte após a entrega do projeto?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Sim, ofereço suporte técnico após a entrega, além de pacotes de manutenção para atualizações regulares, correções e melhorias no site, conforme a necessidade.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question="">
+                    Qual é o valor dos seus serviços?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    O valor varia conforme o escopo do projeto. Ofereço orçamentos personalizados, levando em consideração o tamanho e as funcionalidades do site. Entre em contato para uma cotação gratuita e sem compromisso.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question="">
+                    Posso ver alguns dos seus trabalhos anteriores?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Claro! Tenho um portfólio online com projetos anteriores que mostram meu estilo de trabalho e as soluções que ofereço. Fique à vontade para explorar e ver como posso ajudar no seu projeto.
                 </div>
             </li>
         </ul>
     </section>
+    <section id="contact" class="contact">
+        <div class="contact__container">
+            <h2 class="title--smal">Entre em Contato</h2>
+            <p class="text--big">Adoraria saber mais sobre seu projeto ou suas ideias! Preencha o formulário abaixo ou me mande um email.</p>
+            
+            <form class="form" action="mailto:seu-email@example.com" method="POST" enctype="text/plain">
+                <div class="form__group">
+                    <label for="name" class="text">Nome</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form__group">
+                    <label for="email" class="text">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form__group">
+                    <label for="message" class="text">Mensagem</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="button button--primary">Enviar</button>
+            </form>
+        </div>
+    </section>
 
     <footer class="footer">
-        <div class="footer__container">
-            <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
-        <ul class="footer_links">
-            <li
-            class="footer__links__item">
-                <div class="language-selector">
-                    <img src="./dist/images/icones/globe.svg" alt="Globo do mundo">
-                    <select>
-                        <option>English</option>
-                        <option selected >Português</option>
-                    </select>
-                </div>
-            </li>
-            <li class="footer__links__item">
-                <a class="text--small" href="#">Termos e Condições de Uso</a>
-            </li>
-            <li class="footer__links__item">
-                <a class="text--small" href="#">Politica de privacidade</a>
-            </li>
-            <li class="footer__links__item">
-                <a class="text--small" href="#">Proteção de Dados no Brasil</a>
-            </li>
-            <li class="footer__links__item">
-                <a class="text--small" href="#">Anúncios personalizados</a>
-            </li>
-            <li class="footer__links__item">
-                <a class="text--small" href="#">Dispositvos compativeis</a>
-            </li>
-            <li class="footer__links__item">
-                <a class="text--small" href="#">Ajuda</a>
-            </li>
-            <li class="footer__links__item">
-                <a class="text--small" href="#">Sobre o Disney+</a>
-            </li>
-        </ul>
-        <p class="text--small">
-            © 2024 Disney e suas empresas afiliadas. Todos os direitos reservados.
-        </p>
-        <p class="text--small">
-            A programação do conteúdo esportivo varia de acordo com o plano. Para usar o Disney+, é necessário ser assinante e ter mais de 18 anos de idade. Conteúdo sujeito a disponibilidade.
-            O serviço Disney+ é comercializado por The Walt Disney Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP – CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20
+        <p class="text--big">
+            Vamos criar algo incrível juntos? Entre em contato e compartilhe suas ideias. <br>
+            Estou sempre aberto a novos desafios e colaborações.
         </p>
         </div>
     </footer>
     <script src="./dist/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script>
+        particlesJS('particles-js', {
+            "particles": {
+                "number": {
+                    "value": 80, // Número de partículas
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff" // Cor das partículas
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false
+                },
+                "size": {
+                    "value": 5,
+                    "random": true
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
 </body>
 </html>
