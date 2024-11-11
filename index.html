@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./dist/css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="header">
@@ -22,7 +23,7 @@
             </ul>
         </div>
     </header>
-    <section class="hero">
+    <section class="hero" data-aos="fade-up">
         <div class="hero__content">
             <div id="particles-js">
                 <img src="./img/img_fundo.mp4" alt="">
@@ -35,7 +36,15 @@
             <a href="#projects" class="button">Veja meus projetos</a>
         </div>
     </section>
-    <section class="shows" id="projects">
+    <section class="shows" id="projects" data-aos="fade-up"  
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center">
         <nav class="shows__tab">
             <button data-tab-button="em_breve" class="shows__tab__button shows__tab__button--is--active">
                 Meus Projetos
@@ -46,6 +55,12 @@
                 <a target="_blank" href="https://disney-beta-ivory.vercel.app/">
                     <img src="./img/Disney.png" alt="Disney+">
                     <p class="text--sites">Disney+</p>
+                </a>
+            </li>
+            <li class="shows__list__item" >
+                <a target="_blank" href="https://ebac-tech-tasks.vercel.app/">
+                    <img src="./img/Contador_tempo.png" alt="+">
+                    <p class="text--sites">Temporizador</p>
                 </a>
             </li>
             <li class="shows__list__item" >
@@ -92,7 +107,16 @@
             </li>
         </ul>
     </section>
-    <section class="about">
+    <section class="about" 
+    data-aos="fade-up"
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center">
         <h2 class="title">Sobre mim</h2>
         <p class="text">
             Meu nome é Eduardo de Souza, tenho 23 anos e sou movido por sonhos e metas que quero realizar. A programação me fascina, não apenas pelo seu impacto tecnológico, 
@@ -105,7 +129,16 @@
 
         </p>
     </section>
-    <section class="faq">
+    <section class="faq" 
+    data-aos="fade-up"
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center">
         <h2 class="title">Perguntas frequentes</h2>
         <ul class="faq__questions">
             <li class="faq__questions__item">
@@ -158,7 +191,16 @@
             </li>
         </ul>
     </section>
-    <section id="contact" class="contact">
+    <section id="contact" class="contact" 
+    data-aos="fade-up"
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center">
         <div class="contact__container">
             <h2 class="title--smal">Entre em Contato</h2>
             <p class="text--big">Adoraria saber mais sobre seu projeto ou suas ideias! Preencha o formulário abaixo ou me mande um email.</p>
@@ -181,16 +223,17 @@
         </div>
     </section>
 
-    <footer class="footer">
+    <footer class="footer" 
+    data-aos="fade-up">
         <p class="text--big">
             Vamos criar algo incrível juntos? Entre em contato e compartilhe suas ideias. <br>
             Estou sempre aberto a novos desafios e colaborações.
         </p>
         </div>
     </footer>
-    
-    <script src="./dist/js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script src="./dist/js/main.js"></script>
     <script>
         particlesJS('particles-js', {
             "particles": {
